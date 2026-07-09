@@ -1,0 +1,26 @@
+
+==================== DETECT — positive ====================
+<cesar_result>
+  Sample : positive_metERBB2.depth.gz
+  Segments scored : 196/196
+
+Top 4 genes by confidence:
+  gene copy_ratio confidence n_segments
+ ERBB2  2.2119725 75.5770805          3
+   MET  1.3095792 18.2744616          5
+ Other  0.9559484  3.9375785        184
+  EGFR  0.9870346  0.7396759          4
+
+Top 5 segments by -log10(p):
+   chr     start       end  gene    depth anchor_ratio copy_ratio   z_score
+  chr1  11205008  11205108 Other  569.410    5.4385895  0.5156936  41.34469
+ chr17  37881011  37881077 ERBB2 5427.866    0.5148533  2.1615718 -26.16825
+ chr17  37880975  37881010 ERBB2 8680.543    0.3225260  2.2602570 -20.46139
+  chr7 116411676 116411788   MET 4516.705    0.6843781  1.3235287 -17.50505
+ chr17   7577015   7577160 Other 2658.703    1.1633258  0.8557804  15.54950
+       p_value neglog10_p
+ 1.000000e-100  100.00000
+ 1.000000e-100  100.00000
+  4.755979e-93   92.32276
+  1.311123e-68   67.88236
+  1.603430e-54   53.79495

@@ -1,0 +1,32 @@
+Package: CesaR
+Type: Package
+Title: CNV Estimation with CBS Panel Segmentation and Anchor Recalibration
+Version: 0.1.0
+Date: 2026-06-26
+Authors@R: c(
+    person("Shuai", "Ni", email = "nishuai@yahoo.com", role = c("aut", "cre"),
+           comment = c(affiliation = "Huazhong University of Science and Technology")),
+    person("Huazhong University of Science and Technology", role = "cph")
+    )
+Description: Detects copy number variations (CNVs) in targeted sequencing
+    panels. Compared to the older Cesar package, CesaR adds the missing front
+    of the pipeline: a panel-of-normals-driven master depth estimate and
+    CBS-based re-segmentation of the raw panel BED, so the anchor-correlation
+    training step operates on segments that truly reflect coverage structure
+    rather than user-supplied bins. Same-gene anchor exclusion is on by
+    default. Designed for low-amplitude CNV detection in EGFR, ERBB2, MET and
+    similar targets from circulating tumor DNA or tissue panels.
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    PSCBS,
+    MASS,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    withr
+RoxygenNote: 7.3.3

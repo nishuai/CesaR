@@ -1,0 +1,40 @@
+# === R ===
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Ruserdata
+
+# R CMD check / build artifacts
+*.Rcheck/
+*.tar.gz
+pkg/CesaR.Rcheck/
+
+# === Large raw sequencing data (not tracked; see examples/*/README.md) ===
+examples/**/data/pileups/
+*.freq
+*.mpileup
+*.bam
+*.bam.bai
+*.depth
+*.depth.gz
+
+# === Scratch / manuscript material (kept local) ===
+# Manuscript drafts, figures and one-off scripts live in the project root
+# but are not part of the package repo.
+*.docx
+*.pdf
+图片*.png
+*副本*
+finalize_dataset.R
+fix_cesar_demo.R
+quick_fix.R
+
+# Legacy package kept locally for reference only
+pkg/Cesar_legacy_v1.1.0/
+pkg/CesaR.Rcheck/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini

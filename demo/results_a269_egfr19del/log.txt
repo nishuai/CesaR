@@ -1,0 +1,29 @@
+================ A269 EGFR 19del demo ================
+Hotspot     : chr7:55174722-55174820 (hg38, EGFR exon 19)
+Positives   : A269010010, A269010011
+Negatives   : A269010002, A269010003, A269010004, A269010005, A269010006, A269010007, A269010009
+
+================ EGFR 19del summary ================
+     sample   status hotspot_depth_median max_deficit_in_hotspot run_length_bp
+ A269010010 positive                  749                      0             0
+ A269010011 positive                  767                     10            18
+ A269010002 negative                  419                      0             0
+ A269010003 negative                  710                      1             0
+ A269010004 negative                  713                      2             0
+ A269010005 negative                  616                      1             0
+ A269010006 negative                  520                      1             0
+ A269010007 negative                  893                      0             0
+ A269010009 negative                  977                      0             0
+ run_start  run_end run_deficit_med run_vaf call_19del
+        NA       NA               0  0.0000      FALSE
+  55174777 55174794              10  0.0128       TRUE
+        NA       NA               0  0.0000      FALSE
+        NA       NA               0  0.0000      FALSE
+        NA       NA               0  0.0000      FALSE
+        NA       NA               0  0.0000      FALSE
+        NA       NA               0  0.0000      FALSE
+        NA       NA               0  0.0000      FALSE
+        NA       NA               0  0.0000      FALSE
+
+Demo done. Tables in E:/projects/wrk/gemini/cesar/demo/results_a269_egfr19del/
+            Figures in E:/projects/wrk/gemini/cesar/demo/figures_a269_egfr19del/

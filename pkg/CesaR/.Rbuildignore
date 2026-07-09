@@ -1,0 +1,6 @@
+^data-raw$
+^\.Rcheck$
+^.*\.Rcheck$
+^.*\.tar\.gz$
+^\.Rhistory$
+^cran-comments\.md$

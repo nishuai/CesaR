@@ -1,0 +1,26 @@
+
+==================== DETECT — negative ====================
+<cesar_result>
+  Sample : negative_normal.depth.gz
+  Segments scored : 196/196
+
+Top 4 genes by confidence:
+  gene copy_ratio confidence n_segments
+ ERBB2  0.9586239  0.9276864          3
+ Other  1.0068334  0.6398081        184
+  EGFR  1.0449594  0.6060507          4
+   MET  1.0199671  0.4191539          5
+
+Top 5 segments by -log10(p):
+   chr     start       end  gene    depth anchor_ratio copy_ratio   z_score
+  chr6 117648933 117649268 Other 3017.961    1.1664966  0.8894975  6.200292
+ chr10  43620327  43620435 Other 5080.065    0.6937791  1.1349382 -4.992288
+ chr17   7577015   7577160 Other 3732.014    0.9452050  1.0532650 -4.666151
+  chr6 117648833 117648934 Other 3325.833    1.0684095  0.9456412  4.591571
+  chr6 117644073 117644414 Other 3809.000    0.9623799  0.9514273  3.486099
+      p_value neglog10_p
+ 5.635846e-10   9.249041
+ 5.966815e-07   6.224257
+ 3.068939e-06   5.513012
+ 4.399218e-06   5.356625
+ 4.901201e-04   3.309697

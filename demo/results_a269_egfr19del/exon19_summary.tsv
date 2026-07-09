@@ -1,0 +1,10 @@
+sample	status	hotspot_depth_median	max_deficit_in_hotspot	run_length_bp	run_start	run_end	run_deficit_med	run_vaf	call_19del
+A269010010	positive	749	0	0	NA	NA	0	0	FALSE
+A269010011	positive	767	10	18	55174777	55174794	10	0.0128	TRUE
+A269010002	negative	419	0	0	NA	NA	0	0	FALSE
+A269010003	negative	710	1	0	NA	NA	0	0	FALSE
+A269010004	negative	713	2	0	NA	NA	0	0	FALSE
+A269010005	negative	616	1	0	NA	NA	0	0	FALSE
+A269010006	negative	520	1	0	NA	NA	0	0	FALSE
+A269010007	negative	893	0	0	NA	NA	0	0	FALSE
+A269010009	negative	977	0	0	NA	NA	0	0	FALSE

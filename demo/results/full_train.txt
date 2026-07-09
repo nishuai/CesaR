@@ -1,0 +1,19 @@
+
+==================== TRAIN ====================
+PoN samples : 7   held-out negatives: 3
+Cesar: training from precomputed depth matrix (7 samples x 196 segments) ...
+Cesar: computing segment correlation matrix ...
+Cesar: selecting optimal anchor count per segment ...
+Cesar: training complete. 196/196 segments fitted.
+
+Training time: 0.09 s
+
+<cesar_model>
+  Panel BED          : 196 segments across 4 unique gene labels
+  PoN samples used   : 7
+  Segments fitted    : 196/196
+  Anchor count range : (80+1, 100]
+  Min mean depth     : 200
+
+Anchor-ratio mean :  median=0.998, IQR=[0.851, 1.271]
+Anchor-ratio sd   :  median=0.042, IQR=[0.026, 0.083]

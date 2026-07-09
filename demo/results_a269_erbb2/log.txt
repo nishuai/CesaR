@@ -1,0 +1,46 @@
+================ A269 ERBB2 demo ================
+ERBB2-positive (4, held out for testing):
+  A269010005, A269010006, A269010007, A269010009
+ERBB2-negative (5, used as PoN):
+  A269010002, A269010003, A269010004, A269010010, A269010011
+
+Reading 9 samples x 1645 segments from A269/
+   A269010002 
+   A269010003 
+   A269010004 
+   A269010005 
+   A269010006 
+   A269010007 
+   A269010009 
+   A269010010 
+   A269010011 
+
+Training on 5 ERBB2-negative samples ...
+ERBB2 segments fitted: 27
+
+Running detection on all 9 samples ...
+
+================ ERBB2 summary ================
+     sample is_target_pos n_seg cn_abs_median cn_abs_mean cn_abs_max cn_abs_min
+ A269010005          TRUE    27      2.789919    2.781507   3.428299   2.377924
+ A269010006          TRUE    27      2.152060    2.138846   2.686066   1.640067
+ A269010007          TRUE    27      2.471914    2.432022   2.783116   2.147157
+ A269010009          TRUE    27      1.770518    1.694734   2.049890   1.135256
+ A269010002         FALSE    27      1.917863    1.943449   2.530151   1.689962
+ A269010003         FALSE    27      2.014040    2.011300   2.079936   1.947874
+ A269010004         FALSE    27      1.992268    1.999640   2.103652   1.889841
+ A269010010         FALSE    27      2.063960    2.059476   2.216580   1.882116
+ A269010011         FALSE    27      2.018273    2.012086   2.119472   1.850799
+      pval_min        conf
+ 1.000000e-100 100.0000000
+  8.342699e-59  58.0786934
+  4.785290e-53  52.3200917
+ 1.000000e-100 100.0000000
+  8.074771e-02   1.0928698
+  1.662148e-01   0.7793302
+  2.745915e-01   0.5613130
+  1.441285e-01   0.8412502
+  3.601301e-01   0.4435406
+
+Demo done. Tables in E:/projects/wrk/gemini/cesar/demo/results_a269_erbb2/
+            Figures in E:/projects/wrk/gemini/cesar/demo/figures_a269_erbb2/
