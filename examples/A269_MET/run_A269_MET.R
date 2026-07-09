@@ -26,7 +26,7 @@ PILEUPS   <- file.path(DATA_DIR, "pileups")
 ## starting point: collapse adjacent same-gene rows back to a "raw" panel
 ## (each gene = one or a few long regions), then feed that through
 ## cesar_segment() to re-segment via CBS on the MET-negative master depth.
-## The hg19 raw panel (NX1034 ... 94基因.bed) is NOT used — its coordinates
+## The vendor's hg19 raw panel BED is NOT used -- its coordinates
 ## don't match the hg38 mpileup files.
 SEG_BED   <- file.path(DATA_DIR, "segmented_bed_A269_hg38_annotated.bed")
 

@@ -9,9 +9,9 @@ scores between 14 and 100.
 
 | Sample | Role | MET status |
 |---|---|---|
-| A269010002 | test | amplified |
-| A269010003 | test | amplified |
-| A269010004 | test | amplified |
+| A269010002 | test | abnormality |
+| A269010003 | test | abnormality |
+| A269010004 | test | abnormality |
 | A269010005 | PoN | negative |
 | A269010006 | PoN | negative |
 | A269010007 | PoN | negative |
@@ -47,9 +47,9 @@ already-segmented version; `run_A269_MET.R` collapses it back to a
 "raw" 1355-region panel and re-segments it with CesaR's CBS path so
 the full 4-step flow is exercised.
 
-> Note: a separate `NX1034 ... 94基因.bed` exists for this panel in
-> the main project tree but it uses **hg19** coordinates that do not
-> match these hg38 pileups. We use the hg38 BED in this example.
+> Note: the vendor also distributes an hg19-coordinate panel BED for
+> this assay, but its coordinates do not match these hg38 pileups, so
+> this example uses the hg38 BED shipped above.
 
 ## How to run
 
